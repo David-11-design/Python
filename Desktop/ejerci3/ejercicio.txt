@@ -1,0 +1,32 @@
+Ejercicio 3: Notas simples
+
+Crea un diccionario donde la clave sea el nombre del estudiante y el valor sea una lista con sus notas.
+
+notas = {
+    "David": [10, 8, 9],
+    "Ana": [7, 9, 10]
+}
+tareas:
+Imprime el nombre del estudiante y su promedio.
+
+Permite agregar una nueva nota a un estudiante existente.
+
+Permite agregar un nuevo estudiante con sus notas.
+
+Estos ejercicios ya te permiten practicar:
+
+* Acceder a listas dentro de un diccionario (diccionario[clave][indice]).
+
+* Modificar listas (append, sum, etc.).
+
+* Crear nuevas entradas en diccionarios.
+else:
+                for i in range(3):
+                    while True:
+                        try:
+                            nota = int(input("Enter the note: "))
+                            notas[estudiante].append(nota)
+                            
+                            break
+                        except ValueError:
+                            print("Enter the nota")
